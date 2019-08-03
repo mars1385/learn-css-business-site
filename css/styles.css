@@ -17,7 +17,7 @@ a {
 }
 
 p {
-	margin: 0.7rem 0;
+	margin: 0.75rem 0;
 }
 
 /* utility */
@@ -26,6 +26,16 @@ p {
 	margin: auto;
 	padding: 0 2rem;
 	overflow: hidden;
+}
+
+.bg-light {
+	background: #f4f4f4;
+	color: #333;
+}
+
+.bg-dark {
+	background: #333;
+	color: #fff;
 }
 
 .text-primary {
@@ -69,6 +79,28 @@ p {
 .btn-dark {
 	background: #333;
 	color: #fff;
+}
+
+.list {
+	list-style: none;
+	margin: 0.5rem 0;
+}
+
+.list li {
+	padding: 0.5rem 0;
+	border-bottom: 1px dashed #444;
+}
+
+.p-1 {
+	padding: 1.5rem;
+}
+
+.p-2 {
+	padding: 2rem;
+}
+
+.p-3 {
+	padding: 3rem;
 }
 
 .py-1 {
@@ -156,4 +188,30 @@ p {
 	padding: 1rem;
 	border-radius: 50%;
 	margin-bottom: 1rem;
+}
+
+/* who we are section */
+#who {
+	display: flex;
+}
+
+#who div {
+	flex: 1;
+}
+
+#who .who-img {
+	background: url('../img/people.jpg') no-repeat center center/cover;
+	overflow: hidden;
+}
+
+/* client section */
+
+#clients .items {
+	display: flex;
+}
+
+#clients .items img {
+	display: block;
+	margin: auto;
+	width: 65%;
 }
