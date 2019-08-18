@@ -22,7 +22,7 @@ p {
 
 /* utility */
 .container {
-	max-width: 1100;
+	max-width: 1100px;
 	margin: auto;
 	padding: 0 2rem;
 	overflow: hidden;
@@ -174,7 +174,7 @@ p {
 /* what to do section */
 
 #what h2 {
-	margin-bottom: 1rem;
+	margin-bottom: 0.75rem;
 }
 
 #what .items {

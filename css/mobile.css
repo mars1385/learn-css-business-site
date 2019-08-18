@@ -1,0 +1,75 @@
+/* what section align item */
+#what .items {
+	display: block;
+	padding: 1rem;
+}
+#what .items .item {
+	display: flex;
+	text-align: left;
+}
+
+#what .items .item i {
+	margin-right: 1.3rem;
+	align-self: center;
+	margin-bottom: 0;
+}
+
+/* mobile style*/
+@media (max-width: 500px) {
+	/* navbar */
+	#navbar {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	#navbar .logo {
+		text-align: center;
+		margin-bottom: 0.5rem;
+	}
+
+	#navbar ul {
+		padding: 0.5rem;
+	}
+	/* showcase */
+	#showcase .showcase-content {
+		top: 110px;
+	}
+	/* who section */
+	#who {
+		display: block;
+	}
+	#who .who-img {
+		display: none;
+	}
+	/* client section */
+	#clients .items img {
+		width: 80%;
+	}
+	#clients .items div:last-child {
+		display: none;
+	}
+	/* contact section */
+	#contact {
+		display: block;
+	}
+
+	#contact .map {
+		height: 200px;
+		border-top: 4px solid #333;
+	}
+}
+
+@media (max-height: 640px) {
+	#showcase .showcase-content {
+		margin-top: -2rem;
+		top: 140px;
+	}
+
+	.l-heading {
+		font-size: 3rem;
+	}
+
+	.lead {
+		font-size: 1rem;
+	}
+}
